@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>S13JK-PROJECT</title>
+</head>
+<body>
+    <nav class="nav-barre">
+        <a href="#" class="logo">S13-JK-<span class="logo-project">PROJECT</span></a>
+        <div class="nav-links">
+          <ul>
+            <li class="home"><a href="#">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <header>
+            <div class="overlay">
+                <div class="overlay-info">
+                    <div class="user-profil"></div>
+                    <div class="user-text">
+                        <h1><span>Hi,</span> it's Quentin</h1>
+                        <h2>Je suis un étudiant web developpeur</h2>
+                        <p>Bonjour, Je m'appelle Quentin Jeandel, et je prépare le Brevet de technicien supérieur 
+                           - Services informatiques aux organisations option slam.
+                           Suite à cette formation, je souhaite devenir développeur fullstack freelance.
+                        </p>
+                        <div class="social-link">
+                            <a href="https://github.com/Lavarice"><i class="fa fa-github-square"></i></a>
+                            <a href="https://www.instagram.com/lob_.str/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+    </header>
+    <section  class="sec" id="Skills">  
+        <div class="main-card">
+            <div class="card">
+                <h3>Html</h3>
+                <div class="circular-progress">
+                    <span class="progress-value">0%</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Css</h3>
+                <div class="circular-progress">
+                    <span class="progress-value" >0%</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>JS</h3>
+                <div class="circular-progress">
+                    <span class="progress-value">0%</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Python</h3>
+                <div class="circular-progress">
+                    <span class="progress-value">0%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec" id="Portfolio">
+        <h1 style="color: aliceblue; font-size: 10rem;">EN COUR DE DEV</h1>
+    </section>
+    <section class="sec" id="contact">
+        <div class="container">
+            <h1>Formulaire de contact</h1>
+            <form action="/action_page.php">
+              <label for="fname">Nom & prénom</label>
+              <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+          
+              <label for="sujet">Sujet</label>
+              <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+          
+              <label for="emailAddress">Email</label>
+              <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+          
+              <input type="submit" value="Envoyer">
+            </form>
+        </div>
+        <div class="sec-btn">
+            <h1>CV en PDF</h1>
+            <a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="#" class="download-button">
+                <span>Télécharger</span>
+            </a>    
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
