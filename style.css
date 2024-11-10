@@ -96,10 +96,12 @@
 
 .overlay .user-profil{
     position: relative;
-    height: 60vh;
-    width: 22vw;
-    background-image: url(/Photo/photo-profileV2.jpg);
+    height: 55vh;
+    width: 21vw;
+    background-image: url(/photo-profile.jpg);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 0,2rem solid #0CF25D;
     border-radius: 50%;
     box-shadow: 
