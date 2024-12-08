@@ -98,7 +98,7 @@
     position: relative;
     height: 55vh;
     width: 21vw;
-    background-image: url(/photo-profile.jpg);
+    background-image: url(photo-profile.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
